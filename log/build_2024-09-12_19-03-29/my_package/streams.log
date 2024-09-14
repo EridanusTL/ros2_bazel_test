@@ -1,0 +1,51 @@
+[0.024s] Invoking command in '/home/tlbot/code/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(gac-robotics)\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/tlbot/code/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/tlbot/code/ros2_ws/install/my_package
+[0.134s] -- The C compiler identification is GNU 13.2.0
+[0.255s] -- The CXX compiler identification is GNU 13.2.0
+[0.286s] -- Detecting C compiler ABI info
+[0.478s] -- Detecting C compiler ABI info - done
+[0.509s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.509s] -- Detecting C compile features
+[0.511s] -- Detecting C compile features - done
+[0.532s] -- Detecting CXX compiler ABI info
+[0.738s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.763s] -- Detecting CXX compile features
+[0.764s] -- Detecting CXX compile features - done
+[0.770s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.066s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.288s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.506s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.506s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tlbot/code/ros2_ws/src/my_package/include>
+[1.507s] -- Configured cppcheck exclude dirs and/or files: 
+[1.508s] -- Added test 'lint_cmake' to check CMake code style
+[1.512s] -- Added test 'uncrustify' to check C / C++ code style
+[1.512s] -- Configured uncrustify additional arguments: 
+[1.513s] -- Added test 'xmllint' to check XML markup files
+[1.516s] -- Configuring done (1.5s)
+[1.526s] -- Generating done (0.0s)
+[1.528s] -- Build files have been written to: /home/tlbot/code/ros2_ws/build/my_package
+[1.539s] Invoked command in '/home/tlbot/code/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(gac-robotics)\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/tlbot/code/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/tlbot/code/ros2_ws/install/my_package
+[1.541s] Invoking command in '/home/tlbot/code/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(gac-robotics)\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/tlbot/code/ros2_ws/build/my_package -- -j16 -l16
+[1.633s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.698s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.786s] [100%] Built target my_node
+[1.807s] Invoked command in '/home/tlbot/code/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(gac-robotics)\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/tlbot/code/ros2_ws/build/my_package -- -j16 -l16
+[1.867s] Invoking command in '/home/tlbot/code/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(gac-robotics)\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/tlbot/code/ros2_ws/build/my_package
+[1.882s] -- Install configuration: ""
+[1.882s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/lib/my_package/my_node
+[1.882s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.883s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.884s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.884s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.884s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[1.884s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[1.885s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[1.886s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[1.886s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[1.887s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[1.887s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/package.dsv
+[1.888s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.889s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.889s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.889s] -- Installing: /home/tlbot/code/ros2_ws/install/my_package/share/my_package/package.xml
+[1.893s] Invoked command in '/home/tlbot/code/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(gac-robotics)\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/tlbot/code/ros2_ws/build/my_package
