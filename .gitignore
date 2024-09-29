@@ -1,3 +1,5 @@
 /bazel*
 /.vscode
 /build
+/install
+/log

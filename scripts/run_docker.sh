@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker_image=gac-robotics
+docker_image=tlbot/gac-robotics:latest
 id=gac-robotics
 
 # docker pull $docker_image
